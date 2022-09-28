@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS DO CABECALHO*/
+header {
+    padding: 2%;
+}
+.cabecalhoPrincipal {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalhoPrincipal-logo-search {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-search {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    border-radius: 40px;
+    border-color: #FFFFFF;
+    background: #F5F5F5;
+    margin-left: 2vw;
+
+}
+.search-txt {
+    background: #F5F5F5;
+    height: 3vh;
+    width: 20vw;
+    border: none;
+    margin-left: 1vw;
+
+
+}
+.search-btn {
+    margin-right: 1vw;
+}
+.cabecalhoPrincipal-Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2A7AE4;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #2A7AE4;
+}
