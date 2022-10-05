@@ -58,7 +58,7 @@ header {
     position: relative;
     width: 100%;
     height: 50vh;
-    background: url(assets/Imagens/banner.jpg);
+    background-image: url(../imagens/banner.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
