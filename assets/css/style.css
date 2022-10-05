@@ -1,0 +1,229 @@
+
+
+/* CSS DO CABECALHO */
+header {
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+.cabecalhoPrincipal {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalhoPrincipal-logo-search {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-search {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    border-radius: 40px;
+    border-color: #FFFFFF;
+    background: #F5F5F5;
+    margin-left: 2vw;
+    
+
+}
+.search-txt {
+    background: #F5F5F5;
+    height: 4vh;
+    width: 20vw;
+    border: none;
+    margin-left: 1vw;
+    outline: none;
+
+}
+.search-btn {
+    margin-right: 1vw;
+}
+.cabecalhoPrincipal-Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2A7AE4;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #2A7AE4;
+}
+
+/* CSS DO BANNER */
+
+.imagem-banner {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url(assets/Imagens/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+     
+}
+
+.texto-banner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    bottom: 0;
+}
+
+.texto-banner h2{
+    color: #FFFFFF;
+    font-size: 52px;
+    padding-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+
+}
+
+.texto-banner label {
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #2A7AE4;
+    margin-bottom: 20px;
+
+}
+
+/* CSS DOS PRODUTOS */
+
+.categorias {
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+    margin-bottom: 3rem;
+}
+
+.cabecalho-categoria{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    align-items: center;
+}
+.titulo-categoria{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.ver-tudo {
+    display: flex;
+    align-items: center;
+    
+}
+.categoria-vertudo {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.produto-link {
+    text-decoration: none;
+}
+
+/* CSS DO RODAPE */
+
+
+.rodape_contato {
+    padding: 3rem;
+    background-color: #EAF2FD;
+}
+
+.rodape_container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo_lista_container {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.rodape_fale-conosco {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+.rodape_lista a{
+    text-decoration: none;
+    color: #464646;
+
+
+    
+}
+.rodape_lista_item {
+    margin-bottom: 2rem;
+
+}
+
+.rodape_fale-conosco_titulo{
+    font-weight: bold;
+}
+
+.FaleConosco_nome {
+    height: 3rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 20%);
+    border: none;
+}
+
+.rodape_fale-conosco-nome{
+    position: relative;
+    top: 1.1rem;
+    left: 0.2rem;
+    color: #A2A2A2;
+}
+
+.faleConosco_mensagem{
+    height: 5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 20%);
+    border: none;
+}
+
+.rodape_fale-conosco .botao {
+    width: 10rem;
+}
+
+.rodape_creditos {
+    padding:32px;
+    text-align: center;
+}
