@@ -1,5 +1,8 @@
 
-
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+}
 /* CSS DO CABECALHO */
 header {
    padding-top: 2%;
